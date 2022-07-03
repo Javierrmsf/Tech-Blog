@@ -1,0 +1,32 @@
+
+<div id="x">
+  {{#each posts as |post|}}
+
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h2>
+      🔵
+      <a href="/post/{{id}}">{{postTitle}}</a>
+    </h2>
+
+
+    <p>Created by {{user.username}} on {{format_date dateCreated}}</p>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{postContent}}
+    </p>
+  </div>
+</div>
+
+
+
+  {{/each}}
+</div>
+
+
+
+
+
+
+    

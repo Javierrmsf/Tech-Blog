@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body >
+  
+   <header class="display-flex justify-space-between align-center p-2">
+    <h1 class="app-title"><a href="/"> 🌐 MVC Tech Blog</a></h1>
+  
+      <nav>
+     
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a> |
+        <a a href="#" id="logout-link" >logout</a>
+        {{else}}
+        <a href="/login">Login/Signup</a>
+
+        <p> ⬆️  Login or Signup to use all the app's functions</p>
+        {{/if}}
+      </nav>
+   </header>
+
+ 
+
+  <main class="col-auto">
+    {{{body}}}
+  </main>
+
+
+</body>
+
+</html>
+{{#if loggedIn}}
+<script src="/js/logout.js"></script>
+{{/if}}

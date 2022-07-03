@@ -1,0 +1,33 @@
+
+
+<div class="text-center">
+  <a href="/post/{{post.id}}"></a>
+  <h2>{{post.postTitle}}</h2>
+  </a>
+  <p>{{post.postContent}}</p>
+  <p>Created by {{post.user.username}} on {{format_date post.dateCreated}}</p>
+</div>
+
+<input type="hidden" name="post-id" value="{{post.id}}"/>
+
+
+<div >
+  <div class="card-header"></div>
+  <form class="card-body" id="new-comment-form">
+    
+    <h4>Comment:</h4>
+    <textarea class="form-input" id="comment-body" name="comment-body"></textarea>
+    <div class="centralsubmit">
+    <button type="submit" class="no-button"><h4>Submit<h4></button>
+   
+    
+    </div>
+  </form>
+
+{{>comments post.comments}}
+
+
+
+</div>
+
+<script src="/js/comment.js"></script>

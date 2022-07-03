@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-auto">
+    
+  
+  </div>
+</div>
+<br>
+{{#if posts.length}}
+<div class="dashcard">
+<h3 > Click on existing posts to edit or delete </h3>
+ <p>⬇️</p>
+</div>
+
+<div class="dashcard">
+  {{#each posts as |post|}}
+  <div class = "flexbox1">
+  <div class="dashposts">
+  {{> editItem post}} 
+  </div>
+  <!--<button class="btn btn-sm btn-danger" type="click" id="delete-btn"><h4>Delete</h4></button>-->
+  </div>
+  {{/each}}
+</div>
+{{/if}}
+
+<div class="dashcard">
+    <a  "text-center" href="/dashboard/new"><h3 > Click here to create a new post!</h3></a>
+    <p  >⬆️</p>
+    
+  </div>
