@@ -49,3 +49,15 @@ router.post('/', withAuth, async (req, res) => {
       res.status(500).json(err);
     }
   });
+
+  router.put('/:id', withAuth, async (req, res) => {
+
+
+    try{
+
+     const [postdata1] = await Post.update (req.body, {where: {id:req.params.id,},});
+
+     
+
+    };
+  });
