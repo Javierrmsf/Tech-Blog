@@ -28,8 +28,8 @@ const postdata =
     "userId": 5
   },
   {
-    "postTitle": "How to cook the best pizza",
-    "postContent": "Please comment how to cook the best pizza!.",
+    "postTitle": "How to cook",
+    "postContent": "Please comment how to cook!.",
     "userId": 6
   },
 ];
