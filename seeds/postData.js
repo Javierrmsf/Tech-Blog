@@ -16,7 +16,22 @@ const postdata =
     "postTitle": "Best pasta",
     "postContent": "the best kind of pasta is fetuccini",
     "userId": 3
-  }
+  },
+  {
+    "postTitle": "Interesting article",
+    "postContent": "very interesting indeed body for this post.",
+    "userId": 4
+  },
+  {
+    "postTitle": "There's a Drought",
+    "postContent": "please send water!.",
+    "userId": 5
+  },
+  {
+    "postTitle": "How to cook the best pizza",
+    "postContent": "Please comment how to cook the best pizza!.",
+    "userId": 6
+  },
 ];
 
 const seedPost = () => Post.bulkCreate(postdata);
