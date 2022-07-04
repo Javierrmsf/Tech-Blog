@@ -43,9 +43,6 @@ class Comment extends Model {}
     underscored: true,
     modelName: 'comment',
   }
-  
 );
-
-
 
 module.exports = Comment;
