@@ -38,20 +38,6 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-
-## Instructions before running locally on your computer
-1. Use the "test" branch, the "main" branch was used for the heroku deploy"
-
-1. Make sure you change the user and password in both .env files, (one is inside the seeds folder and the other is in the root)
-   
-2. Make sure you install all dependencies (open package.json on a terminal and type npm install)
-
-3. run the code from schema.sql in your sql workbench
-   
-4. Seed the database by opening index.js from the seeds folder in an integrated terminal and type node index.js
-
-5. open server.js in an integrated terminal and type node server.js
-
 ## Review
 
 You are required to submit BOTH of the following for review:
