@@ -40,6 +40,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 
 ## Instructions before running locally on your computer
+1. Use the "test" branch, the "main" branch was used for the heroku deploy"
 
 1. Make sure you change the user and password in both .env files, (one is inside the seeds folder and the other is in the root)
    
@@ -60,5 +61,4 @@ You are required to submit BOTH of the following for review:
 https://mvctechblog100.herokuapp.com/
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project
-  
   
