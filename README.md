@@ -56,6 +56,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
+* 
+https://mvctechblog100.herokuapp.com/
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project
-* 
+  
+  
